@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/* Font */
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+input,
+select,
+textarea,
+option,
+input::placeholder {
+  color: rgba(75, 69, 160, 0.9);
+  font-size: 18px;
+}
+
+label,
+legend {
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(75, 69, 160, 0.8),
+      rgba(1, 0, 43, 0.8)
+    ),
+    url("https://plus.unsplash.com/premium_photo-1661443781814-333019eaad2d?q=80&w=1551&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+header {
+  padding: 50px 0 30px 0;
+  text-align: center;
+  line-height: 35px;
+}
+
+#survey-form {
+  height: 100%;
+  width: 55%;
+  min-width: 300px;
+  background-color: rgba(10, 1, 59, 0.7);
+  border-radius: 5px;
+  padding: 50px 40px;
+  margin: 0 auto;
+  box-shadow: 0 0 8px 0 rgba(12, 1, 29, 0.2);
+}
+
+.block {
+  display: block;
+}
+
+#name-label,
+#email-label,
+#number-label,
+legend {
+  margin-bottom: 8px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#feature-dropdown {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: rgba(75, 69, 160, 0.8);
+}
+
+.radio-label,
+.checkbox-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.radio-label:last-child,
+.checkbox-label:last-child {
+  margin-bottom: 20px;
+}
+
+#comments {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 120px;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: rgb(79, 172, 79);
+  border-color: rgb(79, 172, 79);
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+}
